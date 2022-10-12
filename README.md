@@ -1,1 +1,1 @@
-Repository for higher level programming, python
+First python project directory
