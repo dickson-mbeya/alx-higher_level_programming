@@ -3,4 +3,4 @@
 SELECT id,
     COUNT(id)
 FROM first_table
-HAVING COUNT(id) = 89;
+HAVING COUNT(id) = '89';
