@@ -3,5 +3,5 @@
 SELECT score, name
 FROM second_table
 WHERE score >= 10
-GROUP BY score DESC;
+ORDER BY score DESC;
 
