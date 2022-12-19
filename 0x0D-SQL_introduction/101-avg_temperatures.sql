@@ -1,3 +1,6 @@
 -- display avg temperatures
 -- order by temperature
-SELECT * FROM temperatures ORDER BY value DESC;
+SELECT city, AVG(value) AS avg_temp
+FROM temperatures
+GROUP BY city
+ORDER BY avg_temp DESC;
