@@ -11,3 +11,6 @@ else:
         if sys.argv.index(arg) == 1:
             print((len(sys.argv)-1), "arguments:")
         print(f'{sys.argv.index(arg)}: {arg}')
+
+if __name__ == '__main__':
+    main()
