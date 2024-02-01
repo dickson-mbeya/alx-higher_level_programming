@@ -13,4 +13,4 @@ else:
         print(f'{sys.argv.index(arg)}: {arg}')
 
 if __name__ == '__main__':
-    main()
+    sys
