@@ -16,13 +16,13 @@ a = int(a)
 b = int(b)
 
 if sys.argv[2] == '+':
-    print(sys.argv[1], "+", sys.argv[3], '=', a + b)
+    print(sys.argv[1], "+", sys.argv[3], '=', add(a, b))
 elif sys.argv[2] == '-':
-    print(sys.argv[1], "-", sys.argv[3], '=', a - b)
+    print(sys.argv[1], "-", sys.argv[3], '=', sub(a, b))
 elif sys.argv[2] == '*':
-    print(sys.argv[1], "*", sys.argv[3], '=', a * b)
+    print(sys.argv[1], "*", sys.argv[3], '=', mul(a, b))
 elif sys.argv[2] == '/':
-    print(sys.argv[1], "/", sys.argv[3], '=', a / b)
+    print(sys.argv[1], "/", sys.argv[3], '=', div(a, b))
 
 if __name__ == '__main__':
     sys
