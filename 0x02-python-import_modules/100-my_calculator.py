@@ -3,12 +3,12 @@ import sys
 from calculator_1 import add, sub, mul, div
 
 if len(sys.argv) < 4:
-    sys.exit("Usage: ./100-my_calculator.py <a> <operator> <b>")
-
+    print("Usage: ./100-my_calculator.py <a> <operator> <b>")
+    sys.exit(1)
 operators = ['+', '-', '*', '/']
 if sys.argv[2] not in operators:
-    sys.exit("Unknown operator. Available operators: +, -, * and /")
-
+    print("Unknown operator. Available operators: +, -, * and /")
+    sys.exit(1)
 a = sys.argv[1]
 b = sys.argv[3]
 
