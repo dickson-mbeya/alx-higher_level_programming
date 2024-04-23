@@ -1,3 +1,4 @@
+#!/usr/bin/node
 const args = process.argv;
 const numArgs = args.length - 2;
 
