@@ -6,6 +6,6 @@ if (arg.length < 3) {
   console.log('Missing size');
 } else {
   for (let i = 0; i < arg[2]; i++) {
-    console.log('x'.repeat(arg[2]));
+    console.log('X'.repeat(arg[2]));
   }
 }
