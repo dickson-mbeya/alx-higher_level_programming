@@ -1,0 +1,1 @@
+The repository for JavaScript objects project
