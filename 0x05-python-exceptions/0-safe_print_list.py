@@ -6,3 +6,7 @@ try:
         return result
 except IndexError:
     pass
+except ValueError:
+  pass
+except NameError:
+  pass
